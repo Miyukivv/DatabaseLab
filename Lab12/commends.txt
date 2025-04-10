@@ -1,0 +1,48 @@
+ZESTAW 12
+
+--1 Utworzyć pakiet o nazwie pracownicy oraz zaimplementować podane niżej procedury i funkcje. 
+
+--2 dodaj_emp – zadaniem procedury ma być dodawanie nowego pracownika do tabeli emp.Numer ID powinien być pobierany automatycznie ze zdefiniowanej w tym celu sekwencji. 
+
+--3 zmień_emp – procedura modyfikująca dane wskazanego pracownika. 
+--4 kasuj_emp – procedura kasująca dane wskazanego pracownika. 
+--5 zmiana_salary – zadaniem tej procedury jest zmiana zarobków wskazanego pracownika. 
+ 
+Podajemy procentową zmianę zarobków. Przykładowo, gdy podamy 50 oznacza to wzrost zarobków o 50%, a kiedy podamy –10 oznacza to obniżkę zarobków o 10%. 
+
+--6 top_n_emp – wyświetla listę n pracowników, którzy zarabiają najwięcej (n podawane jako parametr wejściowy procedury). Dane o tych pracownikach (imię, nazwisko, zarobki) powinny zostać dodatkowo zapisane do tabeli o nazwie top_n_emp. 
+
+Pytanie: czy tę tabelę można stworzyć bezpośrednio w kodzie procedury? 
+
+--7 zmiana_dept – procedura zmienia przypisanie pracownika do wydziału (tabela dept). 
+
+--8 stat_emp – zadaniem funkcji jest zwrócenie jednej wartości (w zależności od podanego parametru): zarobków maksymalnych, minimalnych, średnich albo sumy zarobków wszystkich pracowników. 
+
+Funkcja powinna przyjmować tylko jeden z czterech parametrów: MAX, MIN, AVG, SUM. Podanie innego parametru powinno wygenerować stosowny komunikat.
+
+------------------------------------------------------------------------------------------------------------
+
+LAB12
+--1 Create a package named pracownicy (employees) and implement the procedures and functions listed below.
+
+--2 dodaj_emp – the purpose of this procedure is to add a new employee to the emp table.
+The employee ID should be automatically retrieved using a sequence defined for this purpose.
+
+--3 zmień_emp – a procedure that modifies the data of a specified employee.
+
+--4 kasuj_emp – a procedure that deletes the data of a specified employee.
+
+--5 zmiana_salary – the purpose of this procedure is to change the salary of a specified employee.
+A percentage change is provided as input. For example, entering 50 means a 50% salary increase, while -10 means a 10% decrease.
+
+--6 top_n_emp – displays a list of the top n highest-paid employees (n is passed as a parameter to the procedure).
+The data of these employees (first name, last name, salary) should also be saved into a table named top_n_emp.
+
+Question: Can this table be created directly inside the procedure code?
+
+--7 zmiana_dept – a procedure that changes the department assignment of an employee (based on the dept table).
+
+--8 stat_emp – the purpose of this function is to return one value depending on the provided parameter:
+the maximum, minimum, average, or total salary of all employees.
+The function should accept only one of the following four parameters: MAX, MIN, AVG, or SUM.
+Providing any other parameter should trigger an appropriate message.

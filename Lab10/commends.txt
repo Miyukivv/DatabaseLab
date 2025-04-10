@@ -1,0 +1,65 @@
+ZESTAW 10 
+
+--1 Usunąć wszystkie tabele znajdujące się na koncie serwera Oracle (napisać własny skrypt) 
+
+--2 Utworzyć tabele za pomocą skryptu wygenerowanego w rozwiązaniu zestawu 9 
+
+--3 Wylistować nazwy wszystkich tabel 
+
+--4 Pokazać, jakie kolumny znajdują się w poszczególnych tabelach, a także ich parametry (typ danych, długość, precyzję oraz czy są dopuszczalne wartości NULL) 
+
+--5 Wyświetlić, jakie ograniczenia są narzucone na poszczególne kolumny każdej tabeli w projekcie (z użyciem odpowiedniego polecenia SQL) 
+
+--6 Dodać kolejną tabelę do projektu i wprowadzić w niej klucz obcy do kolumny jednej z istniejących tabel. Zademonstrować 3 sposoby takiego ograniczenia (kolumnowe, tablicowe oraz metodę ALTER TABLE) 
+
+--7 W wybranej tabeli zdefiniować “wewnętrzne” ograniczenie klucza obcego (do kolumny tej samej tabeli, tak jak to było w tabeli emp 
+
+
+Wprowadzenie i modyfikacja danych 
+
+--8 We wszystkich tabelach wprowadzić przykładowe dane. Utworzyć odpowiedni skrypt ładujący “sensowne” dane, tzn. Przykładowe imiona, nazwiska, nazwy, daty, itp. (a nie tylko dowolne zestawienie liter bądź znaków). Zwrócić uwagę na ograniczenia integralnościowe.  
+
+--9 Wyświetlić zawartość wybranej tabeli 
+
+--10 Dokonać próby zmiany wybranych danych według opracowanego przez siebie schematu (np. Filtrując odpowiednio dane do zmiany). Sprawdzić, czy nie są naruszane ograniczenia integralnościowe 
+
+--11 Ponownie wyświetlić zawartość tabeli.  
+
+--12 Wykorzystując skrypt SUMMIT.SQL utworzyć jedną ze zdefiniowanych w nim tabel oraz wypełnić ją odpowiednią treścią (wybrać właściwe polecenia ze skryptu).  
+
+--13 Napisać polecenie, które umożliwi przekopiowanie wybranych danych z tabeli pochodzącej ze skryptu SUMMIT do jednej z własnych tabel 
+
+--14 Sprawdzić zawartość tak zmodyfikowanej tabeli własnej 
+
+---------------------------------------------------------------------
+
+LAB10
+--1 Delete all tables located in your Oracle server account (write your own script to do this).
+
+--2 Create the tables using the script generated in the solution to Set 9.
+
+--3 List the names of all tables.
+
+--4 Show what columns exist in each table, including their parameters (data type, length, precision, and whether NULL values are allowed).
+
+--5 Display the constraints applied to each column in every table of the project (using an appropriate SQL command).
+
+--6 Add another table to the project and define a foreign key referencing a column in one of the existing tables.
+Demonstrate three ways to define this constraint (Column-level constraint, table-level constraint, using the ALTER TABLE command)
+
+--7 In one selected table, define an “internal” foreign key constraint (referencing a column in the same table, similar to the emp table example).
+
+Data Insertion and Modification
+--8 Insert sample data into all tables. Create a data-loading script using meaningful values (e.g. realistic names, dates, titles, etc.—not just random characters). Pay attention to integrity constraints.
+
+--9 Display the contents of a selected table.
+
+--10 Attempt to modify some selected data based on your own logic (e.g., by applying appropriate filters). Check whether any integrity constraints are violated.
+
+--11 Display the contents of the table again.
+
+--12 Using the SUMMIT.SQL script, create one of the tables defined in it and populate it with appropriate data (select relevant commands from the script).
+
+--13 Write a command to copy selected data from a table defined in the SUMMIT script into one of your own tables.
+
+--14 Check the contents of your modified table.

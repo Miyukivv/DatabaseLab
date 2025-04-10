@@ -1,0 +1,22 @@
+ZESTAW 9 
+--1    Tworzenie modelowej bazy danych: 
+
+Wykonać ćwiczenia opisane w opracowaniu Modelowanie bazy danych w celu praktycznego zapoznania się z kolejnymi etapami tworzenia bazy danych Ten proces należy wykonać samodzielnie, bez przesyłania opisu. Dokładne wykonanie tych poleceń ułatwi zrozumienie, czym są poszczególne modele.  
+
+--2 Zadanie do rozliczenia 
+
+Opracować model własnej bazy danych, realizując kolejne kroki, które umożliwiają podgląd modelu (logicznego, relacyjnego i fizycznego) oraz uzyskanie kodu SQL. Baza powinna zawierać kilka encji (tabel), powiązanych ze sobą w sensowny sposób.  
+
+Model ma zawierać odpowiednią strukturę bazy, z uwzględnieniem powiązań (związków / relacji), a zatem konieczne będzie zdefiniowanie odpowiednich ograniczeń (klucze główne, obce, itd). Na tym etapie nie wprowadzamy danych do rekordów.  
+
+----------------------------------------------------------------------
+ LAB09
+--1 Creating a Model Database:
+
+Complete the exercises described in the guide "Database Modeling" to gain practical experience with the successive stages of creating a database. This process should be carried out individually, without submitting a description. Carefully completing these tasks will help you understand the purpose of each model.
+
+--2 Assignment for Submission:
+
+Develop your own database model by following the necessary steps to view the logical, relational, and physical models, as well as to generate the corresponding SQL code. The database should include several entities (tables), logically connected to each other.
+
+The model should include an appropriate database structure, considering relationships (associations/relations), which means you will need to define the necessary constraints (primary keys, foreign keys, etc.). At this stage, do not insert data into the records.

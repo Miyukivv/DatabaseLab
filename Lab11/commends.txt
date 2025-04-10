@@ -1,0 +1,63 @@
+ZESTAW 11 
+
+ --1 Utworzyć anonimowy blok PL/SQL, w którym zadeklarowane zostaną zmienne: 
+a. NUMBER 
+b. VARCHAR2 
+c. DATE 
+
+--2 Zainicjować zmienne dowolnymi wartościami, zaś jedną z nich określić jako CONSTANT. Wyświetlić w konsoli zadeklarowane zmienne (pakiet DBMS_OUTPUT, funkcja PUT_LINE). 
+
+--3 Stworzyć blok wyświetlający liczbę dni, tygodni i miesięcy, które minęły od określonej daty z przeszłości (np. własnych urodzin). Wyniki przedstawić w przejrzystej formie (niezbędne zaokrąglenia wartości, itp.) wraz z opisem. 
+
+--4 Napisać anonimowy blok PL/SQL, wyświetlający dane osobowe z tabeli emp tych pracowników, którzy zarabiają najmniej i najwięcej (wykorzystać niejawny kursor, obsłużyć sytuacje, w których jest kliku pracowników zarabiających najmniej lub najwięcej) 
+
+--5 Wyświetlić w bloku PL/SQL dane wszystkich pracowników. Zadanie wykonać przy użyciu: 
+
+a) kursora jawnego z wykorzystaniem pętli LOOP; 
+b) kursora niejawnego, pętla FOR. 
+
+--6 Napisać blok ze zdefiniowanym kursorem z parametrami. Wyświetlić zamówienia z tabeli ord, które zostały 
+
+złożone w jakimś okresie (parametry date_ord_from, date_ord_to). Dodatkowo wyświetlić dane klienta 
+
+składającego dane zamówienie oraz dane pracownika opiekującego się tym zamówieniem. 
+ 
+--7 Napisać blok PL/SQL, który zmodyfikuje zarobki pracowników: 
+
+a) dla zarabiających poniżej ½ średniej wszystkich zarobków, wprowadzi podwyżkę o 20%; 
+b) dla zarabiających pomiędzy ½ a ⅚ średniej, wprowadzi podwyżkę o 10%; 
+c) dla pozostałych pracowników wprowadzi podwyżkę o 5%. 
+
+Uwaga: przed modyfikacją danych skopiować tabelę pracowników do tabeli emp_new i na niej wykonywać operacje.
+
+-----------------------------------------------------------------
+
+LAB11
+
+--1 Create an anonymous PL/SQL block in which the following variables are declared:
+a. NUMBER
+b. VARCHAR2
+c. DATE
+
+--2 Initialize the variables with any values, and define one of them as a CONSTANT.
+Display the declared variables in the console using the DBMS_OUTPUT.PUT_LINE procedure.
+
+--3 Create a block that displays the number of days, weeks, and months that have passed since a specific date in the past (e.g., your own birthday). Present the results in a clear format (apply necessary rounding and descriptions).
+
+--4 Write an anonymous PL/SQL block that displays personal data from the emp table for employees who earn the least and most.
+Use an implicit cursor, and handle situations where multiple employees earn the minimum or maximum salary.
+
+--5 Display all employee data in a PL/SQL block using:
+a) An explicit cursor with a LOOP statement
+b) An implicit cursor with a FOR loop
+
+--6 Write a block with a parameterized cursor. Display orders from the ord table that were placed within a certain date range (parameters: date_ord_from, date_ord_to).
+Additionally, display the data of the client who placed the order and the employee responsible for the order.
+
+--7 Write a PL/SQL block that modifies employee salaries as follows:
+
+a) Employees earning less than half of the average salary get a 20% raise
+b) Employees earning between ½ and ⅚ of the average get a 10% raise
+c) All others get a 5% raise
+
+Note: Before modifying the data, copy the employees table to a new table named emp_new, and perform all operations on that copy. 
