@@ -19,7 +19,7 @@
 
 -----------------------------------------------------------------------------------------------
 
-<<Creating a Sample Database>>
+### <<Creating a Sample Database>>
 - Learned the basic principles of relational database systems.  
 - Created tables with appropriate structure, applying primary and foreign keys.  
 - Used Polish naming conventions when defining data and structures.  
@@ -36,7 +36,7 @@
 
 -----------------------------------------------------------------------------------------------
 
-<<Database Modeling>>
+### <<Database Modeling>>
 - Understood the differences between logical, relational, and physical models.  
 - Designed a custom database based on modeling principles.  
 - Identified entities, relationships, and their relevant attributes.  
@@ -55,7 +55,7 @@
 
 -----------------------------------------------------------------------------------------------
 
-<<Database Schema Management and Data Operations>>
+### <<Database Schema Management and Data Operations>>
 - Improved skills in managing the database schema (deleting and creating tables).  
 - Analyzed table structure: columns, data types, lengths, constraints.  
 - Used various methods to define foreign keys: column-level, table-level, and via ALTER TABLE.  
@@ -75,7 +75,7 @@
 - Wszystkie operacje wykonywano na kopii tabeli w celu zachowania oryginalnych danych.
 
 -----------------------------------------------------------------------------------------------
- <<PL/SQL Programming>>
+### <<PL/SQL Programming>>
 - Learned how to declare variables in PL/SQL.  
 - Used data types and constants (CONSTANT) in the code.  
 - Calculated time differences (days, weeks, months) from a specific date.  
@@ -100,7 +100,7 @@
 
   -----------------------------------------------------------------------------------------------
   
-<<Creating PL/SQL Packages and Data Management Procedures>>
+### <<Creating PL/SQL Packages and Data Management Procedures>>
 - Learned how to create packages in PL/SQL and apply them in practice.  
 - Created a package named `pracownicy`, containing a set of procedures and functions operating on the `emp` table.  
 - Automated adding new employees using a sequence to generate the ID.  
